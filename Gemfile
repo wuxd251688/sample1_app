@@ -2,13 +2,14 @@ source 'https://ruby.taobao.org'
 ruby '2.0.0'
 gem 'rails', '4.0.4'
 gem 'bootstrap-sass', '2.3.2.0'
+gem 'bcrypt-ruby', '3.1.2'
 group :development, :test do
   gem 'sqlite3', '1.3.7'
-  gem 'rspec-rails', '2.13.1'
+  gem 'rspec-rails', '3.4.2'
 end
 group :test do
   gem 'selenium-webdriver', '2.0.0'
-  gem 'capybara', '2.1.0'
+  gem 'capybara', '2.2.0'
 end
 gem 'sass-rails', '4.0.2'
 

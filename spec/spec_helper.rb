@@ -41,4 +41,7 @@ RSpec.configure do |config|
   config.order = "random"
 
   config.include Capybara::DSL
+
+  config.include Rails.application.routes.url_helpers   ## 增加（但这是什么意思尼？）
+
 end
