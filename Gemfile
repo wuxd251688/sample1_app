@@ -5,7 +5,8 @@ gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '3.1.2'
 group :development, :test do
   gem 'sqlite3', '1.3.7'
-  gem 'rspec-rails', '3.4.2'
+  gem 'rspec-rails'
+  gem 'rspec-its'
 end
 group :test do
   gem 'selenium-webdriver', '2.0.0'
